@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tables inside tables</title>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+<table style="width:50%">
+<tr>
+  <td>
+  <table style="width:100%">
+  <tr>
+    <td>A</td>
+    <td>B</td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td>D</td>
+  </tr>
+  </table>
+  </td>
+  <td>E</td>
+</tr>
+<tr>
+  <td>F</td>
+  <td>
+  <table style="width:100%">
+  <tr>
+    <td>G</td>
+  </tr>
+  <tr>
+    <td>H</td>
+  </tr>
+  </table>
+  </td>
+</tr>
+</table>
