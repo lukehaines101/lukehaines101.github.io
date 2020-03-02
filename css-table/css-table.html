@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Table</title>
+<style> table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 50%
+}
+
+th, td {
+    height: 30px;
+    padding: 10px;
+}
+
+thead {
+    text-align:center;
+    background-color:red;
+}
+
+td {
+    text-align:right;
+}
+
+caption {
+    background-color:green;
+}
+
+tfoot{
+    background-color:hotpink;
+}
+
+tbody{
+    background-color:lightblue;
+}
+</style>
+</head>
+<body>
+<table>
+<Caption> Receipt </Caption>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Cost</th>
+      <th>Amount of Money Saved</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pizza</td>
+      <td>$3</td>
+      <td>$1</td>
+    </tr>
+    <tr>
+      <td>French Fries</td>
+      <td>$2</td>
+      <td>$.50</td>
+    </tr>
+      <td>Chocolate Shake</td>
+      <td>$2</td>
+      <td>$0</td>
+    </tr>
+    </tr>
+      <td>Soda</td>
+      <td>$1.50</td>
+      <td>$.50</td>
+    </tr>
+    <tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Total Amount</td>
+      <td>$8.50</td>
+      <td>$2</td>
+    </tr>
+  </tfoot>
+</table>
+</body>
+</html>
