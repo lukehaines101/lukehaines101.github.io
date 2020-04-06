@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Image Gallery</title>
+<style>
+
+body {
+    background-color:hotpink;
+    font-family: Arial;
+    color: blue;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+ @media only screen and (max-width: 400px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="fortnite1.jpg">
+      <img src="fortnite1.jpg" alt="Gold found in Fortnite Theory" width="600" height="400">
+    </a>
+    <div class="desc">Gold has possibly been found in Fortnite along with a new SMG.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Fortnite2.jpg">
+      <img src="Fortnite2.jpg" alt="Four snipes on one guy" width="600" height="400">
+    </a>
+    <div class="desc">I sniped one guy 4 times. I don't know how this is possible.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Fortnite3.jpg">
+      <img src="Fortnite3.jpg" alt="Fortnite Player holding a controller" width="600" height="400">
+    </a>
+    <div class="desc">I switch to controller for the first time in 6 months.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Fortnite4.jpg">
+      <img src="Fortnite4.jpg" alt="A Yacht and Kevin the Cube in recent Fortnite Teaser" width="600" height="400">
+    </a>
+    <div class="desc">A Yacht and Kevin the Cube has been found in a recent Fortnite teaser.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Fortnite5.jpg">
+      <img src="Fortnite5.jpg" alt="Santa Skeleton by a Fortnite Christmas Tree" width="600" height="400">
+    </a>
+    <div class="desc">A Santa Skeleton skin has been added just in time for a Christmas Montage.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Fortnite6.jpg">
+      <img src="Fortnite6.jpg" alt="Mongraal with poop emoji in Fortnite" width="600" height="400">
+    </a>
+    <div class="desc">A funny Fortnite build battle ends nasty.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Fortnite7.jpg">
+      <img src="Fortnite7.jpg" alt="Burst AR in Snipers Only" width="600" height="400">
+    </a>
+    <div class="desc">A Burst AR was found in a Snipers Only mode.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Fortnite8.jpg">
+      <img src="Fortnite8.jpg" alt="Cradles - A Fortnite Montage." width="600" height="400">
+    </a>
+    <div class="desc">Cradles - A Fortnite Montage.</div>
+  </div>
+</div>
+
+</body>
+</html>
