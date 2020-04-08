@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+#list {
+  position: relative;
+}
+
+#list li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#list li, #list a {
+  height: 50px;
+  display: block;
+}
+
+#fn {
+    left: 0px;
+    height: 50px;
+    width: 50px;
+    background: url(sprite.png.png) 0 0
+}
+
+#riot {
+    left: 50px;
+    height: 50px;
+    width: 50px;
+    background: url(sprite.png.png) -51px 0
+}
+
+#cell {
+    left: 100px;
+    height: 50px;
+    width: 50px;
+    background: url(sprite.png.png) -102px 0
+}
+
+#activision {
+    left: 150px;
+    height: 50px;
+    width: 50px;
+    background: url(sprite.png.png) -153px 0
+}
+
+#fn a:hover{
+  background: url(sprite.png.png) 0 -51px;
+}
+
+</style>
+</head>
+<body>
+<ul id="list">
+  <li id="fn"><a href="https://www.epicgames.com/fortnite/en-US/home">f</a></li>
+  <li id="riot"><a href="https://www.riotgames.com/en"></a></li>
+  <li id="cell"><a href="https://supercell.com/en/"></a></li>
+  <li id="activision"><a href="https://www.activision.com/"></a></li>
+</ul>
+</body>
+</html>
