@@ -11,7 +11,8 @@ body {
 /* The Top Navigation Bar */
 .topnav {
     overflow:hidden;
-    background-color: #00138f
+    background-color: #00138f;
+    background-image: linear-gradient(yellow, orange, red 90%);
 }
 
 /* The Top Navigation Bar Links */
@@ -22,18 +23,19 @@ body {
   color: #f2f2f2;
   text-align: center;
   padding: 10px 10px;
-
+  text-shadow: 1px 1px 10px #000
 }
 
 /* Top Navigation Hover*/
 .topnav a:hover {
-  background-color: #b8c1ff;
-  color: black;
+  background-image: linear-gradient(yellow, orange, red 90%);
+  color: white;
+  text-shadow: 1px 1px 20px #000
 }
 
 /* Footer */
 .footer {
-    width: 95%;
+    width: 98%;
     text-align: center;
     background-color: #000000;
     color:#4a4a4a;
