@@ -33,10 +33,11 @@ body {
 
 /* Footer */
 .footer {
-    width: 96%;
+    width: 95%;
     text-align: center;
     background-color: #000000;
     color:#4a4a4a;
     padding: 30px;
+    position: fixed;
     bottom: 0;
 }
