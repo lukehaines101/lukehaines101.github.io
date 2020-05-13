@@ -48,3 +48,49 @@ body {
 .paragraph {
     text-indent: 50px;
 }
+
+/* Image 1 */
+div.image1 {
+  height: 200px;
+  width: 360px;
+  content:url(https://blog-www.pods.com/wp-content/uploads/2019/08/MG_6_1_Miami.jpg);
+  float: left;
+  padding: 20px;
+}
+
+/* Image 2 */
+div.image2 {
+  width: 24%;
+  content:url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2011/05/View-of-Miami-and-the-coastline-1200x670.jpg);
+  float: left;
+  padding: 20px;
+}
+
+/* Image 3 */
+div.image3 {
+  width: 24%;
+  content:url(https://static-new.lhw.com/HotelImages/Final/LW2743/lw2743_91407149_720x450.jpg);
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Image 4 */
+div.image4 {
+  width: 24%;
+  content:url(https://www.jetsetter.com/uploads/sites/7/2018/04/pC7gm0aJ-1380x1035.jpeg);
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+/* Left Column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+/* Right Column */
+.rightcolumn {
+  float: right;
+  width: 50%;
+}
