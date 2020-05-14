@@ -1,5 +1,21 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;     
+  padding: 25px;
+  background-color:black;
+  color:white;
+  text-align: center;
 }
 
 /* Header */
@@ -33,20 +49,27 @@ body {
   text-shadow: 1px 1px 20px #000
 }
 
-/* Footer */
-.footer {
-    width: 96%;
-    text-align: center;
-    background-color: #000000;
-    color:#4a4a4a;
-    padding: 30px;
-    position: static;
-    bottom: 0;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Paragragh (Index)*/
 .paragraph {
     text-indent: 50px;
+}
+
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
 }
 
 /* Image 1 */
@@ -63,35 +86,4 @@ div.image2 {
   content:url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2011/05/View-of-Miami-and-the-coastline-1200x670.jpg);
   padding: 20px;
   margin-bottom: 25px;
-}
-
-/* Image 3 */
-div.image3 {
-  width: 24%;
-  content:url(https://static-new.lhw.com/HotelImages/Final/LW2743/lw2743_91407149_720x450.jpg);
-  background-color: white;
-  float: left;
-  padding: 5px;
-}
-
-/* Image 4 */
-div.image4 {
-  width: 20%;
-  content:url(https://www.jetsetter.com/uploads/sites/7/2018/04/pC7gm0aJ-1380x1035.jpeg);
-  background-color: white;
-  margin-bottom: 25px;
-  float:left;
-  padding: 5px;
-}
-
-/* Left Column */
-.leftcolumn {   
-  float: left;
-  width: 50%;
-}
-
-/* Right Column */
-.rightcolumn {
-  float: right;
-  width: 50%;
 }
