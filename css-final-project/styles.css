@@ -88,15 +88,32 @@ div.image2 {
 
 /* Image 3 */
 div.image3 {
-  width: 21%;
   content:url(https://www.wobi.com/wbf-miami/wp-content/uploads/2020/01/accommodation-3-1-1024x576.jpg);
   float: left;
-  padding: 20px;
+  width: 20%;
+  padding: 5px;
 }
 
 /* Image 4 */
 div.image4 {
-  width: 24%;
   content:url(https://www.wobi.com/wbf-miami/wp-content/uploads/2020/01/accommodation-2-1-1024x576.jpg);
-  padding: 20px;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Image 6 */
+div.image5 {
+  content:url(https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/12/1/1/FN_south-florida-al-fresco-restaurants-guide-la-mar-terrace_s4x3.jpg.rend.hgtvcom.616.462.suffix/1449028764537.jpeg);
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Image 6  */
+div.image6 {
+  content:url(https://purewows3.imgix.net/images/articles/2018_10/kiki_on_the_river_400.jpg?auto=format,compress&cs=strip);
+  float: left;
+  width: 21%;
+  padding: 5px;
 }
