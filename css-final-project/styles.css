@@ -75,15 +75,19 @@ div.image1 {
   width: 21%;
   content:url(https://blog-www.pods.com/wp-content/uploads/2019/08/MG_6_1_Miami.jpg);
   float: left;
-  padding: 20px;
+  padding: 5px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px;
 }
 
 /* Image 2 */
 div.image2 {
   width: 26%;
   content:url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2011/05/View-of-Miami-and-the-coastline-1200x670.jpg);
-  padding: 20px;
+  padding: 5px;
   margin-bottom: 25px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px;
 }
 
 /* Image 3 */
@@ -92,6 +96,8 @@ div.image3 {
   float: left;
   width: 20%;
   padding: 5px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px;
 }
 
 /* Image 4 */
@@ -100,14 +106,18 @@ div.image4 {
   float: left;
   width: 20%;
   padding: 5px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px;
 }
 
-/* Image 6 */
+/* Image 5 */
 div.image5 {
   content:url(https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/12/1/1/FN_south-florida-al-fresco-restaurants-guide-la-mar-terrace_s4x3.jpg.rend.hgtvcom.616.462.suffix/1449028764537.jpeg);
   float: left;
   width: 20%;
   padding: 5px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px;
 }
 
 /* Image 6  */
@@ -116,6 +126,48 @@ div.image6 {
   float: left;
   width: 21%;
   padding: 5px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px;
+}
+
+/* Image 7  */
+div.image7 {
+  content:url(https://3xtdgy42fsex36bhen2njy7w-wpengine.netdna-ssl.com/wp-content/uploads/2020/04/DSC9014-MLS-1024x683.jpg);
+  float: left;
+  width: 21%;
+  padding: 5px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px;
+}
+
+/* Image 8  */
+div.image8 {
+  content:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ1LfTk6v_N9ODkti7lVkG1JLKdHJAyKOqjWj73Rk67ixHyQmYX&usqp=CAU);
+  float: left;
+  width: 21%;
+  padding: 5px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px;
+}
+
+/* Image 9  */
+div.image9 {
+  content:url(https://mlk3efvyp91n.i.optimole.com/iqRBfw-qPsWRunq/w:290/h:193/q:90/dpr:2.6/https://hoteljules.com/wp-content/uploads/2019/07/History-of-Overtown-Miami.jpg);
+  float: left;
+  width: 21%;
+  padding: 5px;
+  box-shadow: 0px 1px 5px;
+  margin-right: 10px;
+}
+
+/* Image 10  */
+div.image10 {
+  content:url(https://miami-history.com/wp-content/uploads/2020/02/1911-TheMiamiClub-1210AvenueB-777x437.jpg);
+  float: left;
+  width: 21%;
+  padding: 5px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px;
 }
 
 div.polaroid {
@@ -134,4 +186,8 @@ div.container {
 
 div.img {
     width:100%;
+}
+
+a.hover {
+    color: orange;
 }
